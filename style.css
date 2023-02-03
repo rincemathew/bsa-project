@@ -1,0 +1,28 @@
+:root {
+    --beige:#e6e6d9;
+    --lite-beige:#f3f3e6;
+    --orange:#f26f21;
+}
+
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    /* padding: 0; */
+}
+
+.nav-bar{
+    background-color: var(--beige);
+    height: 20px;
+}
+
+.content {
+    background-color: #e6e6d9;
+}
+
+.banner img {
+    width:100%;
+}
+
+.slogan {
+    padding: 75px 30px;
+}
