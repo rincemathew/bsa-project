@@ -10,13 +10,18 @@ body {
     /* padding: 0; */
 }
 
+.common-padd{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .nav-bar{
-    background-color: var(--beige);
+    background-color: var(--lite-beige);
     height: 20px;
 }
 
 .content {
-    background-color: #e6e6d9;
+    background-color: var(--lite-beige);
 }
 
 .banner img {
@@ -24,16 +29,35 @@ body {
 }
 
 .slogan {
-    padding: 75px 30px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+    color: var(--orange);
+}
+
+.slogan h2 {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1;
+}
+
+.slogan h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 25px 0 0 0;
 }
 
 .heading {
     display: flex;
     align-items: center;
+    color: var(--orange);
 }
 
 .heading p {
     white-space: nowrap;
+    font-size: 50px;
+    font-weight: 300;
 }
 
 hr {
