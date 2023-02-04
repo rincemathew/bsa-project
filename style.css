@@ -7,7 +7,6 @@
 body {
     margin: 0;
     font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
-    /* padding: 0; */
 }
 
 .common-padd{
@@ -33,6 +32,7 @@ body {
     padding-bottom: 75px;
     text-align: center;
     color: var(--orange);
+    margin: 0 180px;
 }
 
 .slogan h2 {
@@ -68,4 +68,51 @@ hr {
 
 .models {
     display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 180px;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+
+.models img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* .models img:hover {
+    transition: opacity 1s,transform 1s;
+    transform: scale3d(1.1,1.1,1);
+} */
+
+.models h4 {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+    color: var(--orange);
+    font-weight: 300;
+}
+
+.models div:nth-child(3) {
+    color: #747474;
+    text-align: justify;
+    margin: 10px 0 15px;
+    line-height: 24px;
+    font-size: 17px;
+}
+
+.models div:nth-child(4) {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.models a {
+    padding: 13px 29px;
+    background-color: var(--orange);
+    text-align: center;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
 }
