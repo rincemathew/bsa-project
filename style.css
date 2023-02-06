@@ -15,9 +15,41 @@ body {
 }
 
 .nav-bar{
+    display: flex;
+    align-items: center;
     background-color: var(--lite-beige);
-    height: 20px;
+    padding: 5px 85px;
+    /* width: 100%; */
+    /* position: fixed; */
 }
+
+.nav-bar div {
+    width: 100%;
+}
+
+.nav-bar img {
+    max-height: 80px;
+    height: auto;
+}
+
+.nav-bar ul{
+    float: right;
+    display: flex;
+    list-style-type: none;
+    float: right;
+}
+
+.nav-bar li {
+    padding-right: 45px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+/* .nav-bar li:last-child{
+    font-size: 30px;
+    margin: 0;
+    transform: rotate(90deg);
+} */
 
 .content {
     background-color: var(--lite-beige);
