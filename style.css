@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    background-color: var(--lite-beige);
     font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 
@@ -18,9 +19,12 @@ body {
     display: flex;
     align-items: center;
     background-color: var(--lite-beige);
+    opacity: 0.9;
     padding: 5px 85px;
-    /* width: 100%; */
-    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nav-bar div {
@@ -41,15 +45,7 @@ body {
 
 .nav-bar li {
     padding-right: 45px;
-    /* display: flex; */
-    /* align-items: center; */
 }
-
-/* .nav-bar li:last-child{
-    font-size: 30px;
-    margin: 0;
-    transform: rotate(90deg);
-} */
 
 .content {
     background-color: var(--lite-beige);
